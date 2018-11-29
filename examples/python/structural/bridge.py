@@ -41,12 +41,12 @@ class DarkTheme(Theme):
 
 class LightTheme(Theme):
     def __init__(self):
-        super("Off white")
+        Theme.__init__(self, "Off white")
 
 
 class AquaTheme(Theme):
     def __init__(self):
-        super("Ligth Blue")
+        Theme.__init__(self, "Ligth Blue")
 
 
 
