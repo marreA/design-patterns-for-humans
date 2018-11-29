@@ -18,7 +18,7 @@ class About(WebPage):
         WebPage.__init__(self, theme)
     
     def get_content(self):
-        return "About page in {} theme".format(self.theme.color)
+        return f"About page in {self.theme.color} theme"
         
 
 class Careers(WebPage):
@@ -27,7 +27,7 @@ class Careers(WebPage):
         WebPage.__init__(self, theme)
     
     def get_content(self):
-        return "Careers page in {} theme".format(self.theme.color)
+        return f"Careers page in {self.theme.color} theme"
 
 
 class Theme:

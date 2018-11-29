@@ -42,5 +42,5 @@ organization = Organization()
 organization.add_employee(john)
 organization.add_employee(jane)
 
-print("Net salaries: {}".format(organization.get_net_salaries()))
+print(f"Net salaries: {organization.get_net_salaries()}")
     

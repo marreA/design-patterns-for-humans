@@ -16,7 +16,8 @@ class Burger:
         self.tomato = burger_builder.tomato
 
     def __repr__(self):
-        return 'Burger: size={}, cheese={}, pepperoni={}, lettuce={}, tomato={}'.format(self.size, self.cheese, self.pepperoni, self.lettuce, self.tomato)
+        return f"Burger: size={self.size}, cheese={self.cheese}," \ 
+        f"pepperoni={self.pepperoni}, lettuce={self.lettuce}, tomato={self.tomato}"
 
 class BurgerBuilder:
     

@@ -16,7 +16,7 @@ class Sheep:
         self.category = category
     
     def __repr__(self):
-        return 'Hi I am {}, and I am a {}'.format(self.name, self.category)
+        return f"Hi I am {self.name}, and I am a {self.category}"
         
 original = Sheep('Jolly')
 print(original)

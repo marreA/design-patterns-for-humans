@@ -16,7 +16,7 @@ class Door:
 class WoodenDoor(Door):
     pass
     def __repr__(self):
-        return("WoodenDoor {}x{}".format(self.width, self.height))
+        return f"WoodenDoor {self.width}x{self.height}"
 
 class DoorFactory:
 
