@@ -13,7 +13,7 @@ A topic that can easily make anyone's mind wobble. Here I try to make them stick
 
 <sub>Check out my [blog](http://kamranahmed.info) and say "hi" on [Twitter](https://twitter.com/kamranahmedse).</sub>
 
-Code examples in differente languages
+Code examples in differents languages
 =================
 
 * [Python](python/)
